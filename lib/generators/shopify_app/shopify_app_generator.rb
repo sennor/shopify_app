@@ -32,10 +32,6 @@ class ShopifyAppGenerator < Rails::Generators::Base
   end
 
   def add_bootstrap_gem
-    gem_group :development, :test do
-      gem "less-rails-bootstrap"
-      gem 'therubyracer', :platforms => :ruby
-    end
   end
   
   def add_routes
